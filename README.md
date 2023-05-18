@@ -82,6 +82,8 @@ Share the link to your image of diagram.
 
 ```sh
 https://drive.google.com/file/d/1y79-J5DsORwV6zErObfyj_nfDCL83Q4N/view?usp=sharing
+or
+https://drive.google.com/file/d/1_pDjy0fjGx2GfpHKvTR76QYt_H6bkfRH/view?usp=sharing
 ```
 ---
 
