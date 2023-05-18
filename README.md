@@ -34,7 +34,9 @@ Please attempt the solve the problems described:
 What is the Bash command to discover the IP Address of `www.skillsunion.com`?
 
 ```sh
-# Answer here
+# nslookup www.skillsunion.com
+# or 
+# host www.skillsunion.com
 ```
 
 ---
@@ -44,7 +46,7 @@ What is the Bash command to discover the IP Address of `www.skillsunion.com`?
 What is the command to copy a directory from `~/my_project` to `/etc/projects`?
 
 ```sh
-# Answer here
+# sudo cp -r ~/my_project /etc/projects
 ```
 ---
 
@@ -55,7 +57,13 @@ Implement a bash script that does the follow:
 1. Loop through the array and print each element.
 
 ```sh
-# Answer here
+# #!/bin/bash
+# var="one,two,three"
+# IFS=,
+# array=( $var ) 
+# for i in "${array[@]}"
+# do echo "$i"
+# done
 ```
 
 ---
