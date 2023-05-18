@@ -102,7 +102,11 @@ D - The principle of performance is not applied.
 *Q5B: What do you suggest could be done to improve the situation?*
 
 ```
-Answer here
+Q5A
+B: The principle of Observability is not applied. The fact that Alan takes a long time to trace the issues implies Alan probably has not made full use of the tracking resource availabile in the OS to do trouble shooting, which can save a lot of time.
+
+Q5B
+According to IBM, the principle of observability requires a few things, namely logs, metrics, traces and dependencies. First, he should do tracing by getting records of users experience describing its "end to end" journey from the UI through distributed architecture and back to the user. This can enable Alan to reproduce user experience to get first hand feeling of what problem the client is facing. Then he should look at the system and applications log to find out what are the specific issues that lead to the problem. Sometimes looking at the metrics such as application performance, memory usage etc can provide some hints of the issues arising from using the application, and check if some of the dependencies of the applications are out of date. 
 ```
 
 ---
